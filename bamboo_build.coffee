@@ -1,0 +1,1 @@
+class Dashing.BambooBuild extends Dashing.Widget
