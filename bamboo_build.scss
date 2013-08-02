@@ -5,8 +5,8 @@ $background-color:  #4b5f24;
 
 $title-color:       rgba(255, 255, 255, 1);
 $moreinfo-color:    rgba(255, 255, 255, 0.3);
-$large-font: 70px;
-$medium-font: 40px;
+$large-font: 100px;
+$medium-font: 70px;
 
 $meter-background:  rgba(20, 20, 20, 1);
 
@@ -17,18 +17,13 @@ $meter-background:  rgba(20, 20, 20, 1);
 
   background-color: $background-color;
 
-  input.jenkins-build {
-    background-color: $meter-background;
-    color: #fff;
-  }
-
   canvas {
     margin-bottom: -25px;
   }
 
   .title {
     color: $title-color;
-    font-size: $medium-font;
+    font-size: $large-font;
   }
 
   .more-info {
@@ -38,8 +33,17 @@ $meter-background:  rgba(20, 20, 20, 1);
   .updated-at {
     color: rgba(0, 0, 0, 1);
   }
+
   h4 {
     font-size: $large-font;
+  }
+  
+  .large-font {
+    font-size: $large-font;
+  }
+  
+  .failed {
+    background-color: red;
   }
 
 }
